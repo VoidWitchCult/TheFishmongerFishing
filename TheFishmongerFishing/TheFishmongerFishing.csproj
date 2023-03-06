@@ -3,15 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
 	  <Nullable>enable</Nullable>
-  </PropertyGroup>
-	<PropertyGroup>
 		<EnableHarmony>true</EnableHarmony>
 		<LangVersion>11</LangVersion>
 	</PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="C:\Program Files %28x86%29\Steam\steamapps\common\Stardew Valley\Mods\The Fishmonger\[CP] The Fishmonger NPC\[C#]The Fishmonger fishing\TheFishmongerFishing.cs" Link="TheFishmongerFishing.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.0" />
