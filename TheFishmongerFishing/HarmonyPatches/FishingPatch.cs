@@ -2,11 +2,8 @@
 // Original can be found at: https://github.com/atravita-mods/StardewMods/blob/main/Ginger%20Island%20Mainland%20Adjustments/Ginger%20Island%20Mainland%20Adjustments/ScheduleManager/NPCPatches.cs
 
 using System;
-using System.Diagnostics.CodeAnalysis;
 using HarmonyLib;
 using StardewModdingAPI;
-
-using StardewValley.Locations;
 
 using StardewValley;
 using Microsoft.Xna.Framework;
@@ -27,7 +24,6 @@ internal static class FishingPatch
     /// <remarks>Call at DayEnding.</remarks>
     internal static void Reset()
     {
-
         if (Game1.getCharacterFromName(Fishmonger) is NPC npc)
         {
             npc.Sprite.SpriteHeight = 32;
